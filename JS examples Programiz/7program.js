@@ -47,3 +47,13 @@ while (true) {
     }
     min++;
 }
+
+
+
+
+// object
+const student = {
+    firstName: 'ram',
+    class: 10
+};
+Here, 
