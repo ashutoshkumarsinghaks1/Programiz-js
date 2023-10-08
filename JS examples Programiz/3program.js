@@ -19,3 +19,23 @@ const result3 = Math.sqrt(number3);
 console.log(`The square root of ${number1} is ${result1}`);
 console.log(`The square root of ${number2} is ${result2}`);
 console.log(`The square root of ${number3} is ${result3}`);
+
+
+
+// program to reverse a string
+
+function reverseString(str) {
+
+    // empty string
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+
+// take input from the user
+const string = prompt('Enter a string: ');
+
+const result = reverseString(string);
+console.log(result);
