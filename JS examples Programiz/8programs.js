@@ -20,3 +20,17 @@ const n = 5;
 for (let i = 1; i <= n; i++) {
     console.log(`I love JavaScript.`);
 }
+
+
+// program to add a key/value pair to an object
+
+const person = {
+    name: 'Monica',
+    age: 22,
+    gender: 'female'
+}
+
+// add a key/value pair
+person.height = 5.4;
+
+console.log(person);
