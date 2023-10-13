@@ -40,3 +40,7 @@ const n = 5;
 for (let i = 1; i <= n; i++) {
     console.log(i);     // printing the value of i
 }
+//Javascript Program to Generate a Random Number
+// generating  a random number
+const a = Math.random();
+console.log(a);
