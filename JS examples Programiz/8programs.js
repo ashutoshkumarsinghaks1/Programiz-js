@@ -34,3 +34,9 @@ const person = {
 person.height = 5.4;
 
 console.log(person);
+// object creation
+const person = { 
+    name: 'John',
+    age: 20
+};
+console.log(typeof person); // object
